@@ -56,7 +56,8 @@ int main()
 
     vector<int> arr(n);
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         int arr_item = stoi(arr_temp[i]);
 
         arr[i] = arr_item;
@@ -82,7 +83,8 @@ string ltrim(const string &str) {
     return s;
 }
 
-string rtrim(const string &str) {
+string rtrim(const string &str)
+{
     string s(str);
 
     s.erase(
@@ -93,7 +95,8 @@ string rtrim(const string &str) {
     return s;
 }
 
-vector<string> split(const string &str) {
+vector<string> split(const string &str)
+{
     vector<string> tokens;
 
     string::size_type start = 0;
